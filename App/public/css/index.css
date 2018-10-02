@@ -1,0 +1,40 @@
+
+
+/* TableContentBottom 
+ ----------------------------------------------------- */
+
+#TableContentBottom {
+	margin-top:0px;
+	width:100%;
+	margin: auto;	
+}
+
+#TableContentBottom td {
+	vertical-align:top;
+}
+
+#TableContentBottom .MapContainer {
+	margin-bottom:10px;
+}
+
+#TableContentBottom .Map {
+	background:url(../img/map.gif) no-repeat; 
+	width:410px; 
+	height:438px; 
+}
+
+#TableContentBottom .CountyList {
+	text-align:right;
+	width:236px;
+	font-size:14px;
+	line-height:126%;
+}
+
+#TableContentBottom .CountyList li {
+	list-style-type:none;
+}
+
+#TableContentBottom .Deposer {
+	position:absolute;
+	margin-left:-8px;
+}

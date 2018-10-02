@@ -1,0 +1,161 @@
+@CHARSET "UTF-8";
+
+button::-moz-focus-inner {
+	padding: 0;
+}
+
+.css_button,.css_button:visited {
+	background: #fcd116 url(../img/alert-overlay.png) repeat-x;
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #000;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	position: relative;
+	cursor: pointer;
+}
+
+.css_button:hover {
+	background-color: #000;
+	color: #e76714;
+}
+
+.small.css_button,.small.css_button:visited {
+	font-size: 11px;
+	padding: ;
+}
+
+.css_button,.css_button:visited,.medium.css_button,.medium.css_button:visited
+	{
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.large.css_button,.large.css_button:visited {
+	font-size: 14px;
+	padding: 8px 14px 9px;
+}
+
+.css_button_orange_fonce.css_button,.css_button_orange_fonce.css_button:visited
+	{
+	background-color: #E74B21;
+}
+
+.css_button_orange_fonce.css_button:hover {
+	background-color: #d9380d;
+}
+
+.css_button_orange_clair.css_button,.css_button_orange_clair.css_button:visited
+	{
+	background-color: #F8AE14;
+}
+
+.css_button_orange_clair.css_button:hover {
+	background-color: #f3a806;
+}
+
+.css_form {
+	background-color: #f1f1f1;
+	padding-left: 15px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-top: 5px;
+	margin-right: 2px;
+	margin-left: 2px;
+	/*width:600px;*/
+	width: 99%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.css_form label {
+	display: inline-block;
+	width: 140px;
+}
+
+.css_form label.check_label {
+	display: inline;
+	padding-right: 10px;
+}
+
+.css_form input[type=text],.css_form textarea { /*width:120px;*/
+	width: 90%;
+	border: 1px solid #888;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #f8f8f8 url(../img/alert-overlay.png) repeat-x;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	border: 1px solid #888;
+}
+
+.required {
+	color: #E74B21;
+}
+
+.css_form textarea {
+	height: 60px;
+	width: 90%;
+}
+
+.css_form input[type=radio] {
+	margin: 0;
+	padding: 0;
+}
+
+.css_form select {
+	width: 120px;
+	/*-moz-border-radius:3px;
+  -webkit-border-radius: 3px;
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.2);*/
+	background-color: #f8f8f8;
+}
+
+.css_form p em {
+	color: #7A7C78;
+	margin-left: 15px;
+}
+
+.css_form p.submit { /*text-align:right;*/
+	margin-top: 20px;
+}
+
+.css_form p em {
+	display: inline-block;
+	float: right;
+	width: 280px;
+}
+
+p.erreur_msg,p.confirm_msg {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 26px;
+	width: 300px;
+}
+
+p.erreur_msg {
+	border: 1px solid #CD0A0A;
+	color: #CD0A0A;
+	background: url(../img/alerte.png) 10px 23px no-repeat #fff3f3;
+}
+
+p.confirm_msg {
+	border: 1px solid #479EE8;
+	color: #1960c4;
+	background: url(../img/confirmation.png) 10px 21px no-repeat #eaf2fc;
+}
+
+label {
+	color: #E74B21;
+}
