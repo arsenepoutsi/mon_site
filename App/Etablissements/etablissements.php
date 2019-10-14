@@ -8,7 +8,7 @@
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-sm-12">
         <h2>
-          Etablissements
+           Les Etablissements
           <?php 
             if ($_SESSION['profil'] == "Administrateur" OR $_SESSION['profil'] == "Statisticien") {
             ?>
